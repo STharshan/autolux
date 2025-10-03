@@ -13,26 +13,17 @@ const services = [
   },
   {
     title: "Window Wrapping",
-    desc: `Showroom shine that protects your paint and makes your car stand out.
+    desc: `Window Wrapping provides a stylish, protective film applied to glass surfaces, enhancing privacy
 ​`,
     image: "/gray.avif",
     path: "/services/service",
   },
   {
     title: "Headlight Tinting",
-    desc: `
-Once you have had a AB DETAIL you will automatically be enrolled on to the maintenance scheme`,
+    desc: `Headlight tinting adds a sleek, customized look while protecting headlights from UV damage.`,
     image: "/carmechanic.avif",
     path: "/services/mot",
   },
-  {
-    title: "AB MACHINE POLISH",
-    desc: `
-The AB MACHINE POLISH is a full Stage 1 polish of the paintwork including wing mirrors, door pillars and grill
-Interior clean can be added as an optional added extra (see added extras below for more info and prices)`,
-    image: "/paint.webp",
-    path: "/services/wheel-alignment",
-  }
 ];
 
 const ServiceSection = () => {
